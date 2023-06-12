@@ -18,7 +18,10 @@ window.addEventListener('load', function() {
         const totalDiv = document.getElementById('total');
 
         const resultText = document.createElement('p');
-        resultText.textContent = `Drikke: ${drink.name}, Mengde: ${quantity}ml, Kalorier: ${calories.toFixed(2)}`;
+        resultText.innerHTML = 
+        `${drink.name}, <br>
+        Mengde: ${quantity}ml, <br>
+        Kalorier: ${calories.toFixed(2)}`;
         resultDiv.appendChild(resultText);
 
         totalDiv.textContent = `Total kcal: ${totalCalories.toFixed(2)}`;
