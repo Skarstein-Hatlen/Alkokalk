@@ -18,9 +18,9 @@ window.addEventListener('load', function() {
         const totalDiv = document.getElementById('total');
 
         const resultText = document.createElement('p');
-        resultText.textContent = `Drink: ${drink.name}, Quantity: ${quantity}ml, Calories: ${calories.toFixed(2)}`;
+        resultText.textContent = `Drikke: ${drink.name}, Mengde: ${quantity}ml, Kalorier: ${calories.toFixed(2)}`;
         resultDiv.appendChild(resultText);
 
-        totalDiv.textContent = `Total Calories: ${totalCalories.toFixed(2)}`;
+        totalDiv.textContent = `Total kcal: ${totalCalories.toFixed(2)}`;
     });
 });

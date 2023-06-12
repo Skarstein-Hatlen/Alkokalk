@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alcohol Calorie Calculator</title>
     <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/shortcut.css">
 </head>
 <body>
   <div class="bg-img"></div>
   
   <div class="container">
-    <h1>Alcohol Calorie Calculator</h1>
-    <p>Let's do the math! How many calories are you drinking?</p>
+    <h1>Alkohol Kalori Kalkulator</h1>
+    <p>Let's do the math! Hvor mye kalorier er det i drikken din?</p>
     <select id="drink" required>
-      <option value="">Select your poison</option>
+      <option value="">Velg din gift</option>
       <% let currentType = ""; %>
       <% drinks.forEach((drink, i) => {
             if (drink.type !== currentType) {
@@ -28,8 +29,8 @@
           }) %>
     </select>
     <input type="number" id="quantity" min="0" placeholder="How many milliliters?" required>
-    <button id="calculateButton" type="button">Calculate</button>
-    <button id="resetButton" type="button">Reset</button>
+    <button id="calculateButton" type="button">Kalkuler</button>
+    <button id="resetButton" type="button">Resett</button>
     <div class="result" id="result"></div>
     <div id="total"></div>
   </div>

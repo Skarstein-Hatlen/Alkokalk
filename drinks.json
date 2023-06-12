@@ -6,8 +6,8 @@
         "type": "ØL"
     },
     {
-        "name": "Pilsner, 4,5%",
-        "alcoholContent": 4.5,
+        "name": "Pilsner, 4,7%",
+        "alcoholContent": 4.7,
         "calories": 0.42,
         "type": "ØL"
     },
@@ -18,33 +18,27 @@
         "type": "ØL"
     },
     {
-        "name": "Øl, export, 5,5%",
-        "alcoholContent": 5.5,
-        "calories": 0.52,
+        "name": "Øl, 5,7%",
+        "alcoholContent": 5.7,
+        "calories": 0.59,
         "type": "ØL"
     },
     {
-        "name": "Øl, bayer, 6,5%",
-        "alcoholContent": 6.5,
-        "calories": 0.62,
-        "type": "ØL"
-    },
-    {
-        "name": "Sterkt øl, 7%",
+        "name": "Sterk Øl, 7%",
         "alcoholContent": 7,
-        "calories": 0.67,
+        "calories": 0.63,
         "type": "ØL"
     },
     {
         "name": "Alkoholfritt Øl, 0,5%",
         "alcoholContent": 0.5,
-        "calories": 0.26,
+        "calories": 0.24,
         "type": "ØL"
     },
     {
         "name": "Hvitvin, 12%",
         "alcoholContent": 12,
-        "calories": 0.83,
+        "calories": 0.80,
         "type": "VIN"
     },
     {
@@ -68,31 +62,19 @@
     {
         "name": "Hvitvin Tørr, 12%",
         "alcoholContent": 12.5,
-        "calories": 0.69,
+        "calories": 0.68,
         "type": "VIN"
     },
     {
-        "name": "Sterkvin, søt, portvin, 20%",
+        "name": "Sterkvin, 20%",
         "alcoholContent": 20,
         "calories": 1.51,
         "type": "VIN"
     },
     {
-        "name": "Hvitvin, halvsøt/søt, inkl musserende 10%",
-        "alcoholContent": 10,
-        "calories": 0.72,
-        "type": "VIN"
-    },
-    {
-        "name": "Dessertvin, ekstra søt, musserende 10%",
+        "name": "Dessertvin, 10%",
         "alcoholContent": 10,
         "calories": 0.76,
-        "type": "VIN"
-    },
-    {
-        "name": "Rosé, musserende 10%",
-        "alcoholContent": 10,
-        "calories": 1.04,
         "type": "VIN"
     },
     {    
@@ -104,11 +86,17 @@
     {
         "name": "Akevitt, 40% ",
         "alcoholContent": 40,
-        "calories": 2.25,
+        "calories": 2.35,
         "type": "SPRIT"
     },
     {
         "name": "Vodka, 40%",
+        "alcoholContent": 40,
+        "calories": 2.30,
+        "type": "SPRIT"
+    },
+    {
+        "name": "Cognac, 40%",
         "alcoholContent": 40,
         "calories": 2.25,
         "type": "SPRIT"
@@ -116,7 +104,7 @@
     {
         "name": "Whisky, 40%",
         "alcoholContent": 40,
-        "calories": 2.25,
+        "calories": 2.50,
         "type": "SPRIT"
     },
     {
@@ -128,30 +116,31 @@
     {
         "name": "Rom, 37,5%",
         "alcoholContent": 37.5,
-        "calories": 2.63,
+        "calories": 2.75,
         "type": "SPRIT"
     },
     {
         "name": "Tequila, 37,5%",
         "alcoholContent": 37.5,
-        "calories": 2.63
+        "calories": 2.44,
+        "type": "SPRIT"
+    },
+    {
+        "name": "Likør, 35%",
+        "alcoholContent": 35,
+        "calories": 3.13,
+        "type": "LIKØR"
     },
     {
         "name": "Likør, søt, 21%",
         "alcoholContent": 21,
-        "calories": 2.52,
-        "type": "LIKØR"
-    },
-    {
-        "name": "Likør, 40%",
-        "alcoholContent": 40,
-        "calories": 3.25,
+        "calories": 2.25,
         "type": "LIKØR"
     },
     {
         "name": "Likør, 17%, fløtebasert",
         "alcoholContent": 17,
-        "calories": 3.37,
+        "calories": 3.03,
         "type": "LIKØR"
     },
     {
@@ -171,5 +160,29 @@
         "alcoholContent": 4,
         "calories": 0.50,
         "type": "CIDER"
+    },
+    {
+        "name": "Breezer, 4%",
+        "alcoholContent": 4,
+        "calories": 0.55,
+        "type": "RUSBRUS"
+    },
+    {
+        "name": "Smirnoff Ice, 4%",
+        "alcoholContent": 4,
+        "calories": 0.69,
+        "type": "RUSBRUS"
+    },
+    {
+        "name": "Crush, 4,5%",
+        "alcoholContent": 4.5,
+        "calories": 0.71,
+        "type": "RUSBRUS"
+    },
+    {
+        "name": "Kald, 4,7%",
+        "alcoholContent": 4.7,
+        "calories": 0.30,
+        "type": "SELTZER"
     }
 ]
