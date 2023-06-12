@@ -1,0 +1,175 @@
+[
+    {
+        "name": "Lettøl, 2,5%",
+        "alcoholContent": 2.5,
+        "calories": 0.29,
+        "type": "ØL"
+    },
+    {
+        "name": "Pilsner, 4,5%",
+        "alcoholContent": 4.5,
+        "calories": 0.42,
+        "type": "ØL"
+    },
+    {
+        "name": "Pilsner Lite, 4,3%",
+        "alcoholContent": 4.3,
+        "calories": 0.28,
+        "type": "ØL"
+    },
+    {
+        "name": "Øl, export, 5,5%",
+        "alcoholContent": 5.5,
+        "calories": 0.52,
+        "type": "ØL"
+    },
+    {
+        "name": "Øl, bayer, 6,5%",
+        "alcoholContent": 6.5,
+        "calories": 0.62,
+        "type": "ØL"
+    },
+    {
+        "name": "Sterkt øl, 7%",
+        "alcoholContent": 7,
+        "calories": 0.67,
+        "type": "ØL"
+    },
+    {
+        "name": "Alkoholfritt Øl, 0,5%",
+        "alcoholContent": 0.5,
+        "calories": 0.26,
+        "type": "ØL"
+    },
+    {
+        "name": "Hvitvin, 12%",
+        "alcoholContent": 12,
+        "calories": 0.83,
+        "type": "VIN"
+    },
+    {
+        "name": "Rosévin, 12%",
+        "alcoholContent": 12,
+        "calories": 0.74,
+        "type": "VIN"
+    },
+    {
+        "name": "Rødvin, 12%",
+        "alcoholContent": 12,
+        "calories": 0.74,
+        "type": "VIN"
+    },
+    {
+        "name": "Rødvin Tørr, 12%",
+        "alcoholContent": 12,
+        "calories": 0.64,
+        "type": "VIN"
+    },
+    {
+        "name": "Hvitvin Tørr, 12%",
+        "alcoholContent": 12.5,
+        "calories": 0.69,
+        "type": "VIN"
+    },
+    {
+        "name": "Sterkvin, søt, portvin, 20%",
+        "alcoholContent": 20,
+        "calories": 1.51,
+        "type": "VIN"
+    },
+    {
+        "name": "Hvitvin, halvsøt/søt, inkl musserende 10%",
+        "alcoholContent": 10,
+        "calories": 0.72,
+        "type": "VIN"
+    },
+    {
+        "name": "Dessertvin, ekstra søt, musserende 10%",
+        "alcoholContent": 10,
+        "calories": 0.76,
+        "type": "VIN"
+    },
+    {
+        "name": "Rosé, musserende 10%",
+        "alcoholContent": 10,
+        "calories": 1.04,
+        "type": "VIN"
+    },
+    {    
+        "name": "Vin, 0%",
+        "alcoholContent": 0,
+        "calories": 0.17,
+        "type": "VIN"
+    },
+    {
+        "name": "Akevitt, 40% ",
+        "alcoholContent": 40,
+        "calories": 2.25,
+        "type": "SPRIT"
+    },
+    {
+        "name": "Vodka, 40%",
+        "alcoholContent": 40,
+        "calories": 2.25,
+        "type": "SPRIT"
+    },
+    {
+        "name": "Whisky, 40%",
+        "alcoholContent": 40,
+        "calories": 2.25,
+        "type": "SPRIT"
+    },
+    {
+        "name": "Gin, 37,5%",
+        "alcoholContent": 37.5,
+        "calories": 2.63,
+        "type": "SPRIT"
+    },
+    {
+        "name": "Rom, 37,5%",
+        "alcoholContent": 37.5,
+        "calories": 2.63,
+        "type": "SPRIT"
+    },
+    {
+        "name": "Tequila, 37,5%",
+        "alcoholContent": 37.5,
+        "calories": 2.63
+    },
+    {
+        "name": "Likør, søt, 21%",
+        "alcoholContent": 21,
+        "calories": 2.52,
+        "type": "LIKØR"
+    },
+    {
+        "name": "Likør, 40%",
+        "alcoholContent": 40,
+        "calories": 3.25,
+        "type": "LIKØR"
+    },
+    {
+        "name": "Likør, 17%, fløtebasert",
+        "alcoholContent": 17,
+        "calories": 3.37,
+        "type": "LIKØR"
+    },
+    {
+        "name": "Cider, 4,7%",
+        "alcoholContent": 4.7,
+        "calories": 0.45,
+        "type": "CIDER"
+    },
+    {
+        "name": "Cider Lite, 4,7%",
+        "alcoholContent": 4.7,
+        "calories": 0.30,
+        "type": "CIDER"
+    },
+    {
+        "name": "Bulmers rød, 4%",
+        "alcoholContent": 4,
+        "calories": 0.50,
+        "type": "CIDER"
+    }
+]
