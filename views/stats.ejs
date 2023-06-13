@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcohol Calorie Calculator</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/shortcut.css">
+    <link rel="stylesheet" href="/stylesheets/navbar.css">
+</head>
+<body>
+    <%- include('partials/navbar.ejs') %>
+    <div class="bg-img"></div>
+
+    <div style="text-align: center; margin: 20px;">
+        <h2>Alkohol Effektivitet</h2>
+        <p>Denne tabellen viser hvor høy alkohol effektivitet de forskjellige drikkevarene har.</p>
+        <p>Kort fortalt vil de si hvilken enhet som gir deg høyest promille på minst mulig kalorier.</p>
+    </div>
+
+    <div style="margin: 0 50px 50px 50px;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Type</th>
+                    <th>Kcal per gram Alkohol</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% drinks.forEach((drink) => { %>
+                    <tr>
+                        <td><%= drink.id %></td>
+                        <td><%= drink.enhet %></td>
+                        <td><%= drink.kcalPerG %></td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    </div>
+    <section class="sticky">
+        <div class="bubbles">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        </div>
+    </section>
+    <script id="drinksData" type="application/json">
+        <%- JSON.stringify(drinks) %>
+    </script>
+    <script>
+        const drinks = JSON.parse(document.getElementById('drinksData').textContent);
+    </script>
+</body>
+</html>

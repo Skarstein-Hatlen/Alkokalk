@@ -6,8 +6,10 @@
     <title>Alcohol Calorie Calculator</title>
     <link rel="stylesheet" href="/stylesheets/style.css">
     <link rel="stylesheet" href="/stylesheets/shortcut.css">
+    <link rel="stylesheet" href="/stylesheets/navbar.css">
 </head>
 <body>
+  <%- include('partials/navbar.ejs') %>
   <div class="bg-img"></div>
   
   <div class="container">
@@ -35,6 +37,21 @@
     <div class="result" id="result"></div>
     <div id="total"></div>
   </div>
+
+  <form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+      <table>
+      <tr><td><input type="hidden" name="on0" value="Medlemskap">Medlemskap</td></tr><tr><td><select name="os0">
+        <option value="Uke">Uke : 50,00 NOK - ukentlig</option>
+        <option value="Måned">Måned : 100,00 NOK - månedlig</option>
+        <option value="Årlig">Årlig : 500,00 NOK - årlig</option>
+      </select> </td></tr>
+      </table>
+    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIIWQYJKoZIhvcNAQcEoIIISjCCCEYCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBvx1YWHaXGkljHVG2Gf2u7o+KLP5PQoexe2UbDG0Kghj/6e6xVS8gl9+WbJaxIeqCKTytiQZBiWtvFWdrRq8FCmmKMqG2M2uJ8YFuFgikIPKJN2nOIqAgWwTYSAvzFbc7scuwjW4puKmUtpatpgKKfEZtXDjldSdyITzzM48op/DELMAkGBSsOAwIaBQAwggHVBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECDElkucLeMh3gIIBsPBAT80tk2tB8FWlqEFHdyYmDaIPEsWvR60ofreVESg5uSbhb5WxywcICv3uuJJ8ydAqUmQ5PR76x0lVz2SCW/f7NdDIVjSZnktIoSI2LB+HfbFxMipCUv7daIpW/fKzDWy/Jv/IZW+CqEw5dlFlH6pfk6NhTgGBBAq+mDlbCO3q/m46j9GLaGOTHPlEZCPfRHhnpF1sYIotUjSjqcxtZwNHvQqDwnkZ0c4tpxetm3jVjJU87+ysw8zjlkwc7ddePhRMQH+6y4bYbE82j0mNrQy62Ard5DUC1ifaPKIOa+ZZrr48Yc9r7M5FVCMd5burdrnP6uMD7ZjQcTKJf5DtTmu4n8ojKRZwJDudc30SoW9iUDEf0OEF54u29StxEX6PVkuKD0p/LBsRTf8yT/b16oISxdrG0SxTluqVktPag1CMcBeo9C/v6jixNv1cRbCgILvcD6QrMDKdLVwcpNEnJoXK8g0j5gV9ve/iiJHehLQqHG3D2btqc/Vqnd7W7wVCazHCT2vle4yhgFzf1uzXDDgZOEZwZBOfpRs5G0G5BvKZZmj6SGT/tYeMDxeuRlTyhaCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTIzMDYxMzEwMTE0NlowIwYJKoZIhvcNAQkEMRYEFPnM4mgpe8dWdNsH+9MAFf8VPUPCMA0GCSqGSIb3DQEBAQUABIGAcni9KyDS6LzpKht8knTBOQYCWlJI5yAA3x30wp3q6O8spdWuQXadgznhkSQPtcT85Q2uvwXzc8UvRrAOXSSV0k0TYUvh7VEjndL43iKIzlNP7wxdbBanVb2Cu3f58EoM/S9AxmwfDThBeGMZFrZzfMNGGBmmB3QHaJL0IKdi/1Y=-----END PKCS7-----">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal – en trygg og enkel betalingsmetode på nettet!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/no_NO/i/scr/pixel.gif" width="1" height="1">
+  </form>
+
   
   
   <section class="sticky">
